@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: yourdockerhub/backend:latest
+        image: urlshortener-backend:latest
         ports:
         - containerPort: 5000
         env:
